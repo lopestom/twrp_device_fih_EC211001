@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/cricket/FLC
+DEVICE_PATH := device/fih/EC211001
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
