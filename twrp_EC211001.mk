@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Inherit from star device
-$(call inherit-product, device/cricket/FLC/device.mk)
+$(call inherit-product, device/fih/EC211001/device.mk)
 
 # Inherit some common recovery stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
