@@ -1,4 +1,4 @@
-LOCAL_PATH := device/cricket/FLC
+LOCAL_PATH := device/fih/EC211001
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
