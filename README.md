@@ -8,9 +8,9 @@ boot-.............img => Working
 ------------------------------------
 Credits: for stock files [Josephdbrewer25 - xda](https://forum.xda-developers.com/m/josephdbrewer25.5982262/)
 
-xda threads: [Development for the Cricket Dream 5G](https://forum.xda-developers.com/t/development-for-the-cricket-dream-5g.4414603/)
-
+xda threads: [Development for the Cricket Dream 5G](https://forum.xda-developers.com/t/development-for-the-cricket-dream-5g.4414603/) 
 [TWRP for Cricket Dream 5G](https://forum.xda-developers.com/t/twrp-for-cricket-dream-5g.4418963/)
+
 --------------------------------
 TWRP Pictures
 -------------
