@@ -16,7 +16,7 @@ env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11
   DEVICE: EC211001
   DT_LINK: https://github.com/lopestom/twrp_device_fih_EC211001
-  DT_PATH: device/fhi/EC211001
+  DT_PATH: device/fih/EC211001
   TARGET: bootimage
   TZ: Asia/manila
 
@@ -55,7 +55,7 @@ jobs:
        - name: Checkout device tree
          uses: actions/checkout@v2
          with:
-          path: twrp/device/fhi/EC211001
+          path: twrp/device/fih/EC211001
              
        - name: Build
          run: |
