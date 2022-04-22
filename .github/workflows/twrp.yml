@@ -19,7 +19,6 @@ env:
   DT_PATH: device/fih/EC211001
   TARGET: bootimage
   TZ: Asia/manila
-#TZ: America/Recife
 
 jobs:
   build:
