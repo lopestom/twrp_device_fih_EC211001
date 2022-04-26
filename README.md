@@ -25,9 +25,9 @@ TWRP Pictures
 6- If you see that the message exists in the Mount - Decrypt Data option, you must run the FORMAT DATA process.
 
 Confirm FORMAT DATA: For the first time, formatting may not have been done. Go back (triangle) and it should already say (yes), confirm again and you will see the correct formatting.
-- Advanced: Unmap Super Devices;
-- Advanced: Merge Snapshots;
-- Wipe- FORMAT DATA (yes)
+- Advanced: Unmap Super Devices - Swipe to Confirm;
+- Advanced: Merge Snapshots - Swipe to Confirm;
+- Wipe- FORMAT DATA (yes) - Swipe to Confirm.
 
 ## Preparing needed files
 7- You can put files in internal and external memory. For internal storage you should use the path: /sdcard
@@ -37,9 +37,6 @@ You must complete these steps!
 - Install --> img: bootStock-......5G_...........img (40MB) => section: Boot;
 - Return to the main menu;
 - Advanced: Install Recovery Ramdisk - select: bootTWRP-.............5G.img (40MB);
-
-You can have the bootTWRP-Armor_11T_5G.img <=> boot.emmc.win renamed file backuped or download bootTWRP-.....5G.zip from Release option tab.
-
-Confirm selection.
+- Swipe to Confirm.
 
 Restart the system and it will restart.
