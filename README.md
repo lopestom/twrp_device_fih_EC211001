@@ -2,7 +2,7 @@
 Cricket Dream 5G - MT6833 - A11
 
 ---------------
-Status: TEST compile file to know if booting : After compiling the first file ----booted/Not booted----.
+Status: TEST compile file to know if booting : After compiling the first file - booted.
 
 boot-EC211001-A11-20220423-0924.img => Working
 ------------------------------------
