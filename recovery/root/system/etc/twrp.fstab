@@ -18,7 +18,7 @@
 /metadata	    emmc	/dev/block/by-name/metadata flags=backup=1
 
 # Common partition
-/data            f2fs    /dev/block/by-name/userdata           flags=encryptable=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,keydirectory=/metadata/vold/metadata_encryption,fsverity
+/data            f2fs    /dev/block/by-name/userdata           flags=fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,keydirectory=/metadata/vold/metadata_encryption,fsverity
 #/data            ext4    /dev/block/by-name/userdata            flags=encryptable=/dev/block/by-name/metadata
 /vendor_boot	emmc	/dev/block/by-name/vendor_boot		 flags=display="Vendor Boot";backup=1;flashimg=1;slotselect
 /boot            emmc    /dev/block/by-name/boot               flags=backup=1;display="Boot";flashimg=1;slotselect
