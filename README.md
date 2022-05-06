@@ -1,5 +1,4 @@
-# twrp_device_cricket_FLC
-Cricket Dream 5G - MT6833 - A11 => Encrypt & Decrypt option and files updated.
+# TWRP3.6.x_11 - Cricket Dream 5G - MT6833 - A11 => Encrypt & Decrypt option and files updated.
 
 ---------------
 Status: TEST compile file to know if booting : After compiling the first file - booted.
