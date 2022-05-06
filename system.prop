@@ -23,9 +23,25 @@ ro.product.vendor.model=EC211001
 vendor.ro.product.model.display=EC211001
 ro.product.vendor.name=EC211001
 vendor.ro.product.product.name=EC211001
-ro.product.nickname=Cricket Dream 5G
+ro.product.nickname=Cricket Dream
 ro.product.model.display=EC211001
 ro.product.model.num=0CN0
+# Disable iorapd
+ro.iorapd.enable=false
+#
+persist.adb.nonblocking_ffs=0
+ro.vendor.mtk_config_max_dram_size=0x800000000
+ro.vendor.mediatek.version.branch=alps-mp-r0.mp3
+ro.vendor.mediatek.version.release=alps-mp-r0.mp3-V2.30_foxconn.fih.r0mp3.k6833v1.64_P15
+ro.vendor.operator.optr=OP07
+ro.vendor.operator.spec=SPEC0407
+ro.vendor.operator.seg=SEGDEFAULT
+persist.vendor.operator.optr=OP07
+persist.vendor.operator.spec=SPEC0407
+persist.vendor.operator.seg=SEGDEFAULT
+ro.vendor.mtk_data_config=1
+init.userspace_reboot.is_supported=true
+
 # end common build properties
 ro.crypto.uses_fs_ioc_add_encryption_key=true
 ro.crypto.metadata.enabled=true
@@ -44,6 +60,8 @@ persist.service.debuggable=1
 persist.sys.isUsbOtgEnabled=true
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
+ro.boot.avb_version=1.1
+ro.boot.vbmeta.avb_version=1.1
 ro.treble.enabled=true
 sys.usb.controller=musb-hdrc
 sys.usb.ffs.aio_compat=true
